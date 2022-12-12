@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root{
+    --font-family: 'Rubik', sans-serif;
+    --bg-color: #CFF5E7;
+    --primary-color: #0D4C92 ; 
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.mensagem{
+    font-size: 2rem;
+    margin-top: 40px;
+}
+.box{
+    border: 2px solid #009EFF;
+    display: block;
+    font-size: 7rem;
+    padding: 10px;
+    margin: 20px;
+}
+.botao{
+    width: 50vh;
+    height: 7vh;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    margin-top: 2rem;
+    font-size: 4vh;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.botao:hover{
+    background: #0a3a70;
+}
+.botao--desativado{
+    display: none;
+}
